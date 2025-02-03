@@ -51,3 +51,12 @@ for (let product of products) {
 let orders = [203, 204, 205];
 orders.forEach(order => console.log(`Order ID: ${order}`));
 // Logged order IDs using a for loop and displayed them through a template literal.
+
+// Task 8: Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+console.log(`Tax on $6500 at 9%: $${calculateTax(5500, 0.09)}`);
+// Created a function in order to calculate tax rate at 9%
+
