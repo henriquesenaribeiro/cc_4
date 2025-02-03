@@ -15,3 +15,10 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
 } // Implemented a `for` loop to calculate the total revenue if all sales are completed.
 console.log(`Total sales: $${totalSales}`);
+
+// Task 3: Inventory Depletion
+
+for (let stock = 20; stock > 0; stock--) {
+    console.log(`Stock remaining: ${stock}`);
+} // Created a descending `for` loop starting from 20, 19, 18, and so on, decreasing until the inventory runs out.
+console.log("Stock is empty.");
