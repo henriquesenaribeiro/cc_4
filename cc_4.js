@@ -18,7 +18,17 @@ console.log(`Total sales: $${totalSales}`);
 
 // Task 3: Inventory Depletion
 
-for (let stock = 20; stock > 0; stock--) {
+for (let stock = 10; stock > 0; stock--) {
     console.log(`Stock remaining: ${stock}`);
-} // Created a descending `for` loop starting from 20, 19, 18, and so on, decreasing until the inventory runs out.
+} // Created a descending `for` loop starting from 10, 9, 8, and so on, decreasing until the inventory runs out.
 console.log("Stock is empty.");
+
+// Task 4: Customer Survey
+
+let responses = 0;
+do {
+    responses++;
+    console.log(`Collected response: ${responses}`);
+} while (responses < 3);
+// Created a do...while` loop that runs from 1 to 3 in ascending order and terminates after completing the sequence.
+
