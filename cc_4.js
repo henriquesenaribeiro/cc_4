@@ -60,3 +60,18 @@ function calculateTax(amount, taxRate) {
 console.log(`Tax on $6500 at 9%: $${calculateTax(5500, 0.09)}`);
 // Created a function in order to calculate tax rate at 9%
 
+// Task 9: Discount Application
+
+const applyDiscount = function(price, discountPercent) {
+    return price - (price * discountPercent / 100);
+};
+console.log(`Price after 20% cool people discount: $${applyDiscount(100, 20)}`);
+// Calculated price for cool people 
+
+// Task 10: Loyalty Points
+
+function calculatePoints(purchaseAmount) {
+    return Math.floor(purchaseAmount / 10);
+}
+console.log(`Loyalty Points Earned: ${calculatePoints(1800)}`);
+// Created a function to determine loyalty points by dividing the total purchase amount by 10, as customers earn 1 point for every $10 spent.
